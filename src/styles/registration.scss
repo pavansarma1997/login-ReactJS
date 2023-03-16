@@ -1,0 +1,41 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main {
+    background-image: url("https://th.bing.com/th/id/OIP.OM_PT_xFc9R94bbrUtHrOwHaEo?pid=ImgDet&rs=1");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 1rem;
+}
+
+.registration {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(249, 236, 236);
+}
+.title{
+    color: whitesmoke;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 30vw;
+    padding: 2vw 1vw;  
+}
+input {
+    border: 1px solid rgb(241, 119, 119);
+    border-radius: 10px;
+    padding: 1vw 1vw;
+    outline: none;
+    margin: 5px;
+}
